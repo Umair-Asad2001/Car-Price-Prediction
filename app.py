@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 
 # Load the trained model and scaler
-# Ensure these paths match where you save your files
 try:
     linear_regressor = pickle.load(open('linear_regression_model.pkl', 'rb'))
     scaler = pickle.load(open('scaler.pkl', 'rb'))
